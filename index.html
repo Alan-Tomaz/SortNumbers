@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sorteio Online</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+	<link rel="stylesheet" href="./css/style.css">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <div class="div-1">
+	  <h1 class="title-1">Sorteio</h1>
+      <form action="" method="post" class="form-2">
+        <fieldset>
+          <legend>Form</legend>
+          <div class="div-2">
+            <label for="num1">Insira o valor mínimo:</label>
+            <input type="number" id="num1" name="num1" title="Valor Mínimo" placeholder="Valor Mínimo" />
+			<small>Max: 999   Min: -999</small>
+          </div>
+          <br>
+          <br>
+          <div class="div-2">
+            <label for="num2">Insira o valor máximo:</label>
+            <input type="number" id="num2" name="num2" title="Valor Máximo" placeholder="Valor Máximo" />
+			<small>Max: 999   Min: -999</small>
+          </div>
+          <input onclick="toReset()" role="button" id="button-2" type="button" value="Sortear" title="Sorteio" />
+        </fieldset>
+		 </form>
+		<img src="./img/loading.gif" alt="loading" id="img-1"/>
+		<div class="div-3">
+        <p id="resultado-1" class="resultado"></p>
+		<p id="resultado-2" class="resultado"></p>
+		<p id="resultado-3" class="resultado"></p>
+		<p id="resultado-4" class="resultado"></p>
+		<p id="resultado-5" class="resultado"></p>
+		<p id="resultado-6" class="resultado"></p>
+		</div>
+     
+      <br>
+    </div>
+    <script src="./js/main.js">
+    
+    </script>
+  </body>
+</html>
